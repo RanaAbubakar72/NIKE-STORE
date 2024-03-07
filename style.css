@@ -1,0 +1,168 @@
+body {
+  font-family: "lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 20px 45px;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serch {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.searchinput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.searchinput::placeholder {
+  color: lightgray;
+}
+
+.limitedoffer {
+  font-size: 20px;
+  border-bottom: 2px solid green;
+  cursor: pointer;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItem {
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
+}
+
+.slider {
+  background: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxM[…]90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80;);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+  overflow: hidden;
+}
+
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+  transition: all 1.2s ease-in-out;
+}
+
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.slideBg {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: absolute;
+  /* background-color: yellow; */
+}
+
+.sliderImg {
+  z-index: 1;
+}
+
+.sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.sliderPrice {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+  border: 1px solid gray;
+  color: white;
+  z-index: 1;
+}
+
+.buyButton {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 30px;
+  font-weight: 900;
+  /* text-align: center; */
+  border: 1px solid gray;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  z-index: 1;
+}
+
+.buyButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.sliderItem:nth-child(1) .slideBg {
+  background-color: #1aac57;
+}
+
+.sliderItem:nth-child(2) .slideBg {
+  background-color: rebeccapurple;
+}
+
+.sliderItem:nth-child(3) .slideBg {
+  background-color: teal;
+}
+
+.sliderItem:nth-child(4) .slideBg {
+  background-color: cornflowerblue;
+}
+
+.sliderItem:nth-child(5) .slideBg {
+  background-color: rgb(124, 115, 80);
+}
+
+.sliderItem:nth-child(1) .sliderPrice {
+  color: #1aac57;
+}
+
+.sliderItem:nth-child(2) .sliderPrice {
+  color: rebeccapurple;
+}
+
+.sliderItem:nth-child(3) .sliderPrice {
+  color: teal;
+}
+
+.sliderItem:nth-child(4) .sliderPrice {
+  color: cornflowerblue;
+}
+
+.sliderItem:nth-child(5) .sliderPrice {
+  color: rgb(124, 115, 80);
+}
