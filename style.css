@@ -62,7 +62,7 @@ nav {
 .sliderWrapper {
   display: flex;
   width: 500vw;
-  transition: all 1.2s ease-in-out;
+  transition: all 1.1s ease-in-out;
 }
 
 .sliderItem {
@@ -166,3 +166,105 @@ nav {
 .sliderItem:nth-child(5) .sliderPrice {
   color: rgb(124, 115, 80);
 }
+
+
+.features{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.featureimg{
+  width: 50px;
+  height: 50px;
+}
+
+.featuretitle{
+ font-size: 20px;
+ font-weight: 550;
+ margin: 15px;
+}
+
+.featuredesc{
+  color: gray;
+  width: 50%;
+  height: 100px;
+}
+
+
+.product{
+  height: 110vh;
+  background-color: whitesmoke;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.productimg{
+  width: 50%;
+}
+
+.productDetails{
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 50px;
+}
+
+.productTitle{
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.productDesc{
+  font-size: 15px;
+  color: rgb(121, 55, 55);
+}
+
+.colors,.sizes{
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.color{
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+ .color:last-child{
+  background-color: darkblue;
+ }
+
+ .size{
+  padding: 1px 18px;
+  border: 1px solid black;
+  margin-right: 12px;
+  cursor: pointer;
+  font-size: 20px;
+ }
+
+ .productButton{
+  float: right;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+ }
+
+ .productButton:hover{
+  background-color: white;
+  color: black;
+ }

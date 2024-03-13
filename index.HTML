@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Nike store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body>
     <nav>
@@ -34,6 +35,10 @@
         <h3 class="menuItem">BLAZER</h3>
         <h3 class="menuItem">CRATER</h3>
         <h3 class="menuItem">HIPPIE</h3>
+        <!-- <div class="form-check form-switch">
+          <input class="form-check-input" onclick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+          <label class="form-check-label" for="flexSwitchCheckChecked">DarkMode</label>
+        </div> -->
       </div>
     </nav>
     <div class="slider">
@@ -94,6 +99,50 @@
         </div>
       </div>
     </div>
+
+    <div class="features">
+      <div class=" feature">
+        <img src="/media/shipping.png" alt="" class="featureimg">
+        <span class="featuretitle">FREE SHIPPING</span>
+        <span class="featuredesc">Free worldwide shipping on all orders.</span>
+      </div>
+      <div class=" feature">
+        <img src="/media/return.png" alt="" class="featureimg">
+        <span class="featuretitle">30 DAYS RETURN</span>
+        <span class="featuredesc">No question return and easy fefund in 14 days.</span>
+      </div>
+      <div class=" feature">
+        <img src="/media/gift.png" alt="" class="featureimg">
+        <span class="featuretitle">GIFT CARDS</span>
+        <span class="featuredesc">Buy gift cards nd use coupon codes easily.</span>
+      </div>
+      <div class=" feature">
+        <img src="/media/contact.png" alt="" class="featureimg">
+        <span class="featuretitle">CONTACT US!</span>
+        <span class="featuredesc">Keep in touch via email and support system.</span>
+      </div>
+    </div>
+
+    <div id="" class="product">
+      <img src="/media/air.png" alt="" class="productImg">
+      <div class="productDetails">
+        <h1 class="productTitle">AIR FORCE</h1>
+        <h2 class="productPrice">$199</h2>
+        <p class="productDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, dolorem veritatis, ea vel eos necessitatibus excepturi aperiam, </p>
+        <div class="colors">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div class="sizes">
+          <div class="size">42</div>
+          <div class="size">43</div>
+          <div class="size">44</div>
+        </div>
+        <button class="productButton">BUY NOW!</button>
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
